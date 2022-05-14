@@ -123,7 +123,7 @@ const ops = [
     type: "oper",
     id: "block",
     nToken: "DO",
-    lToken: "SEMI",
+    lToken: null,
     oToken: "END",
     prec: 0,
     assoc: "NONE",
