@@ -3,7 +3,6 @@
   "description": "A collection of experiments to try out new programming language concepts",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +21,7 @@
   "homepage": "https://github.com/jasonsbarr/language-sandbox#readme",
   "dependencies": {
     "@jasonsbarr/lexer": "^0.2.0",
-    "@jasonsbarr/pratt-generator": "^0.1.0"
+    "@jasonsbarr/pratt-generator": "^0.1.0",
+    "prettier": "^2.6.2"
   }
 }
