@@ -86,7 +86,7 @@ const ops = [
   },
   {
     type: "oper",
-    id: "add",
+    id: "plus",
     nToken: null,
     lToken: "PLUS",
     oToken: null,
@@ -108,7 +108,7 @@ const ops = [
   },
   {
     type: "mul",
-    id: "add",
+    id: "times",
     nToken: null,
     lToken: "TIMES",
     oToken: null,
