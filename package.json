@@ -1,8 +1,4 @@
 {
-  "dependencies": {
-    "@jasonsbarr/lexer": "^0.2.0",
-    "@jasonsbarr/pratt-generator": "^0.1.0"
-  },
   "name": "language-sandbox",
   "description": "A collection of experiments to try out new programming language concepts",
   "version": "1.0.0",
@@ -23,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/jasonsbarr/language-sandbox/issues"
   },
-  "homepage": "https://github.com/jasonsbarr/language-sandbox#readme"
+  "homepage": "https://github.com/jasonsbarr/language-sandbox#readme",
+  "dependencies": {
+    "@jasonsbarr/lexer": "^0.2.0",
+    "@jasonsbarr/pratt-generator": "^0.1.0"
+  }
 }
