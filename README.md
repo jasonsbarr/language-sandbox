@@ -15,6 +15,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Lambdas
 - Block expressions
 - If/else expressions
+- Implementation language: JavaScript
 - Compiled to JavaScript
 
 ### Typed Nano
@@ -22,12 +23,16 @@ A collection of experiments to try out new (to me) programming language concepts
 - Everything from Nano
 - Strings
 - Statically typed
+- Implementation language: JavaScript
+- Compiled to JavaScript
 
 ### NanoML
 
 - Everything from Typed Nano
 - Type inference
 - Pairs (2-tuples)
+- Implementation language: JavaScript
+- Compiled to JavaScript
 
 ### MicroML
 
@@ -35,34 +40,47 @@ A collection of experiments to try out new (to me) programming language concepts
 - Records (row polymorphism)
 - Lists
 - Parametric polymorphism (generics)
+- Implementation language: TypeScript
+- Compiled to JavaScript
 
 ### MiniML
 
 - Everything from MicroML
 - Variants and pattern matching
 - _N_-tuples
+- Implementation language: ReScript
+- Compiled to JavaScript
 
 ### MiniScheme
 
-- Interpreted
 - Top-level definitions
 - Homoiconic
 - Macros
 - Tail call optimization
+- CPS transform
+- Implementation language: Racket
+- Compiled to C
 
 ### MiniC
 
 - Imperative
 - Statement-based
 - Statically typed
+- Control flow analysis
+- At least one optimization pass on backend
+- Compiles to WebAssembly via Binaryen
+- Implementation language: ReasonML
 
 ### MiniC#
 
 - Object oriented
 - Statement-based
 - Statically typed
+- Type casting
 - Generics
 - Collection types
+- Compiles to CLR
+- Implementation language: C#
 
 ### MiniHask
 
@@ -73,6 +91,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Type classes
 - Variants and pattern matching
 - Compiles to abstract machine (i.e. G machine)
+- Implementation language: ReasonML
 
 ### MiniClojure
 
@@ -80,17 +99,19 @@ A collection of experiments to try out new (to me) programming language concepts
 - Macros
 - Polymorphism with multimethods
 - Immutable collections and sequences
-- A-normal form transformation
-- Compiles to abstract machine
+- Compiles to JVM
+- Implementation language: Clojure
 
 ### MiniF#
 
 - Functional and object oriented
 - Variants (named fields) and pattern matching
 - Immutable collections and sequences
-- Eager Lists and lazy Seqs
 - Records
 - Computation expressions
 - Modules
 - Syntactically significant whitespace
-- Compiles to abstract machine
+- A-normal form transform
+- Tail call optimization
+- Compiles to CLR
+- Implementation language: F#
