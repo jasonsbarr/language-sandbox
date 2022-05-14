@@ -2,5 +2,26 @@
   "dependencies": {
     "@jasonsbarr/lexer": "^0.2.0",
     "@jasonsbarr/pratt-generator": "^0.1.0"
-  }
+  },
+  "name": "language-sandbox",
+  "description": "A collection of experiments to try out new programming language concepts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonsbarr/language-sandbox.git"
+  },
+  "keywords": [
+    "programming-language"
+  ],
+  "author": "Jason Barr <jason@jasonsbarr.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonsbarr/language-sandbox/issues"
+  },
+  "homepage": "https://github.com/jasonsbarr/language-sandbox#readme"
 }
