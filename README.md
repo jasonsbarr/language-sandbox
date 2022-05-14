@@ -58,6 +58,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Macros
 - Tail call optimization
 - CPS transform
+- Garbage collection
 - Implementation language: Racket
 - Compiled to C
 
@@ -67,6 +68,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Statement-based
 - Statically typed
 - Control flow analysis
+- Manual memory management
 - At least one optimization pass on backend
 - Compiles to WebAssembly via Binaryen
 - Implementation language: JavaScript
