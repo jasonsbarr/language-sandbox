@@ -78,6 +78,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Statically typed
 - Type casting
 - Generics
+- Namespaces
 - Collection types
 - Compiles to CLR
 - Implementation language: C#
@@ -91,7 +92,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Type classes
 - Variants and pattern matching
 - Compiles to abstract machine (i.e. G machine)
-- Implementation language: ReasonML
+- Implementation language: Haskell
 
 ### MiniClojure
 
