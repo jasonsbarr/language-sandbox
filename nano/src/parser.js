@@ -245,9 +245,9 @@ const ops = [
     lToken: "IN",
     oToken: null,
     prec: 50,
-    assoc: "RIGHT",
-    affix: "PREFIX",
-    arity: "UNARY",
+    assoc: "NONE",
+    affix: "MIXFIX",
+    arity: "BINARY",
   },
   {
     type: "oper",
@@ -303,6 +303,11 @@ const ops = [
     assoc: "LEFT",
     affix: "MATCHFIX",
     arity: "BINARY",
+  },
+  {
+    type: "assign",
+    id: "assign",
+    name: "ASSIGN",
   },
 ];
 
