@@ -37,6 +37,7 @@ const rules = [
   rule("NL", String.raw`\r?\n`),
   rule("LPAREN", String.raw`\(`),
   rule("RPAREN", String.raw`\)`),
+  rule("COMMA", String.raw`,`),
 ];
 
 const ops = [
@@ -303,6 +304,11 @@ const ops = [
     assoc: "LEFT",
     affix: "MATCHFIX",
     arity: "BINARY",
+  },
+  {
+    type: "sequence",
+    id: "Comma",
+    name: "COMMA",
   },
   {
     type: "assign",
