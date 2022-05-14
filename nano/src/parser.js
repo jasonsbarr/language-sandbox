@@ -1,2 +1,2 @@
-import { lexer } from "@jasonsbarr/lexer";
+import { lexer, rule } from "@jasonsbarr/lexer";
 import { createParser } from "@jasonsbarr/pratt-generator";
