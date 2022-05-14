@@ -39,7 +39,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Everything from NanoML
 - Records (row polymorphism)
 - Lists
-- Parametric polymorphism (generics)
+- Parametric polymorphism
 - Implementation language: TypeScript
 - Compiled to JavaScript
 
@@ -120,7 +120,6 @@ A collection of experiments to try out new (to me) programming language concepts
 - Computation expressions
 - Modules
 - Syntactically significant whitespace
-- A-normal form transform
 - Tail call optimization
 - Compiles to CLR
 - Implementation language: F#
