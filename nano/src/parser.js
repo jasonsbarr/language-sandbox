@@ -17,11 +17,11 @@ const keywords = [
 const rules = [
   ...keywords.map((kw) => rule(kw.toUpperCase(), kw)),
   rule("INTEGER", String.raw`\d+`),
-  rule("ARROW", String.raw`\->`),
+  rule("ARROW", String.raw`->`),
   rule("PLUS", String.raw`\+`),
   rule("TIMES", String.raw`\*`),
-  rule("MINUS", String.raw`\-`),
-  rule("DIV", String.raw`\/`),
+  rule("MINUS", String.raw`-`),
+  rule("DIV", String.raw`/`),
   rule("EQ", String.raw`==`),
   rule("GT", String.raw`>`),
   rule("GTE", String.raw`>=`),
@@ -312,4 +312,4 @@ const filterWs = (tokens) =>
   tokens.filter((tok) => tok.type !== "WS" && tok.type !== "NL");
 
 export const parse = (input) =>
-  parser(filterWs(lexer(rules).input(input).tokenize()));
+  parser(filterWs(lexer(rules).compile().input(input).tokenize()));
