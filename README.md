@@ -41,7 +41,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Lists
 - Parametric polymorphism
 - Implementation language: ReasonML
-- Compiled to JavaScript
+- Compiled to abstract machine
 
 ### MiniML
 
@@ -49,7 +49,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Variants and pattern matching
 - _N_-tuples
 - Implementation language: ReasonML
-- Compiled to JavaScript
+- Compiled to abstract machine
 
 ### MiniScheme
 
