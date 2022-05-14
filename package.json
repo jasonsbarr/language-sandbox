@@ -1,6 +1,6 @@
 {
-  "name": "@jasonsbarr/nano",
-  "description": "A simple, dynamically typed programming language",
+  "name": "@jasonsbarr/language-sandbox",
+  "description": "A collection of programming language experiments",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
