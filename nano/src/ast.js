@@ -9,6 +9,7 @@ const variantInfos = [
   VariantInfo("LetExpression", "assign", "body"),
   VariantInfo("CallExpression", ["fn", "args"]),
   VariantInfo("BlockExpression", ["children"]),
+  VariantInfo("LambdaExpression", ["args", "body"]),
 ];
 
 export const Ast = createType("Ast", variantInfos);
