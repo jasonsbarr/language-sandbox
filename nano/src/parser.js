@@ -15,7 +15,7 @@ const keywords = [
 ];
 
 const rules = [
-  ...keywords.map((kw) => rule(kw.toUpperCase(), kw)),
+  ...keywords.map((kw) => rule(kw.toUpperCase(), kw + String.raw`\b`)),
   rule("INTEGER", String.raw`\d+`),
   rule("ARROW", String.raw`->`),
   rule("PLUS", String.raw`\+`),
