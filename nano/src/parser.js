@@ -130,6 +130,17 @@ const ops = [
     affix: "NONE",
     arity: "NONE",
   },
+  {
+    type: "oper",
+    id: "call",
+    nToken: null,
+    lToken: "LPAREN",
+    oToken: "RPAREN",
+    prec: 0,
+    assoc: "NONE",
+    affix: "NONE",
+    arity: "NONE",
+  },
 ];
 
 const parser = createParser(ops);
