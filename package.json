@@ -22,7 +22,7 @@
   "dependencies": {
     "@jasonsbarr/functional-core": "^0.9.3",
     "@jasonsbarr/lexer": "^0.2.0",
-    "@jasonsbarr/pratt-generator": "^0.1.0"
+    "@jasonsbarr/pratt-generator": "^0.2.0"
   },
   "devDependencies": {
     "prettier": "^2.6.2"
