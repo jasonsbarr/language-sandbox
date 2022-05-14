@@ -78,6 +78,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Statically typed
 - Type casting
 - Generics
+- Lambda expressions
 - Namespaces
 - Collection types
 - Compiles to CLR
