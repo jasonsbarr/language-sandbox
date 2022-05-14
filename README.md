@@ -16,7 +16,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Block expressions
 - If/else expressions
 - Implementation language: JavaScript
-- Compiled to JavaScript
+- Compiles to JavaScript
 
 ### Typed Nano
 
@@ -24,7 +24,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Strings
 - Statically typed
 - Implementation language: TypeScript
-- Compiled to JavaScript
+- Compiles to JavaScript
 
 ### NanoML
 
@@ -32,7 +32,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Type inference
 - Pairs (2-tuples)
 - Implementation language: TypeScript
-- Compiled to JavaScript
+- Compiles to JavaScript
 
 ### MicroML
 
@@ -41,7 +41,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Lists
 - Parametric polymorphism
 - Implementation language: ReasonML
-- Compiled to abstract machine
+- Compiles to abstract machine
 
 ### MiniML
 
@@ -49,7 +49,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Variants and pattern matching
 - _N_-tuples
 - Implementation language: ReasonML
-- Compiled to abstract machine
+- Compiles to abstract machine
 
 ### MiniScheme
 
@@ -61,7 +61,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - CPS transform
 - Garbage collection
 - Implementation language: Racket
-- Compiled to C
+- Compiles to C
 
 ### MiniC
 
@@ -71,8 +71,8 @@ A collection of experiments to try out new (to me) programming language concepts
 - Control flow analysis
 - Manual memory management
 - At least one optimization pass on backend
-- Compiles to WebAssembly via Binaryen
 - Implementation language: JavaScript
+- Compiles to WebAssembly via Binaryen
 
 ### MiniC#
 
@@ -84,8 +84,8 @@ A collection of experiments to try out new (to me) programming language concepts
 - Lambda expressions
 - Namespaces
 - Collection types
-- Compiles to CLR
 - Implementation language: C#
+- Compiles to CLR
 
 ### MiniHask
 
@@ -96,8 +96,8 @@ A collection of experiments to try out new (to me) programming language concepts
 - Type classes
 - Type inference
 - Variants and pattern matching
-- Compiles to abstract machine (i.e. G machine)
 - Implementation language: Haskell
+- Compiles to abstract machine (i.e. G machine)
 
 ### MiniClojure
 
@@ -107,8 +107,8 @@ A collection of experiments to try out new (to me) programming language concepts
 - Polymorphism with multimethods
 - Immutable collections and sequences
 - Tail calls with `recur`
-- Compiles to JVM
 - Implementation language: Clojure
+- Compiles to JVM
 
 ### MiniF#
 
@@ -121,5 +121,5 @@ A collection of experiments to try out new (to me) programming language concepts
 - Modules
 - Syntactically significant whitespace
 - Tail call optimization
-- Compiles to CLR
 - Implementation language: F#
+- Compiles to CLR
