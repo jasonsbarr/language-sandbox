@@ -1,4 +1,4 @@
-import { lexer as makeLexer, rule } from "@jasonsbarr/lexer";
+import { lexer, rule } from "@jasonsbarr/lexer";
 import { createParser } from "@jasonsbarr/pratt-generator";
 
 const keywords = [
@@ -38,8 +38,6 @@ const rules = [
   rule("LPAREN", String.raw`\(`),
   rule("RPAREN", String.raw`\)`),
 ];
-
-const lexer = makeLexer(rules);
 
 const ops = [
   {
