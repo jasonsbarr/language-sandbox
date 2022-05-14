@@ -54,6 +54,7 @@ A collection of experiments to try out new (to me) programming language concepts
 ### MiniScheme
 
 - Top-level definitions
+- Dynamically typed
 - Homoiconic
 - Macros
 - Tail call optimization
@@ -93,12 +94,14 @@ A collection of experiments to try out new (to me) programming language concepts
 - Lazy
 - Lists
 - Type classes
+- Type inference
 - Variants and pattern matching
 - Compiles to abstract machine (i.e. G machine)
 - Implementation language: Haskell
 
 ### MiniClojure
 
+- Dynamically typed
 - Homoiconic
 - Macros
 - Polymorphism with multimethods
@@ -110,6 +113,7 @@ A collection of experiments to try out new (to me) programming language concepts
 ### MiniF#
 
 - Functional and object oriented
+- Type inference
 - Variants (named fields) and pattern matching
 - Immutable collections and sequences
 - Records
