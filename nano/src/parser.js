@@ -31,7 +31,6 @@ const rules = [
   rule("OR", String.raw`||`),
   rule("NOT", String.raw`!`),
   rule("ASSIGN", String.raw`=`),
-  rule("SEMI", String.raw`;`),
   rule("IDENT", String.raw`[a-z_][\w]*`),
   rule("WS", String.raw`[\t ]+`),
   rule("NL", String.raw`\r?\n`),
