@@ -42,8 +42,8 @@ const rules = [
 const ops = [
   {
     type: "oper",
-    id: "numberLiteral",
-    nToken: "NUMBER",
+    id: "integerLiteral",
+    nToken: "INTEGER",
     lToken: null,
     oToken: null,
     prec: 0,
