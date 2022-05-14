@@ -23,7 +23,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Everything from Nano
 - Strings
 - Statically typed
-- Implementation language: TypeScript
+- Implementation language: JavaScript
 - Compiles to JavaScript
 
 ### NanoML
@@ -31,7 +31,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Everything from Typed Nano
 - Type inference
 - Pairs (2-tuples)
-- Implementation language: TypeScript
+- Implementation language: ReasonML
 - Compiles to JavaScript
 
 ### MicroML
@@ -71,7 +71,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Control flow analysis
 - Manual memory management
 - At least one optimization pass on backend
-- Implementation language: JavaScript
+- Implementation language: TypeScript
 - Compiles to WebAssembly via Binaryen
 
 ### MiniC#
