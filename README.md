@@ -69,7 +69,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Control flow analysis
 - At least one optimization pass on backend
 - Compiles to WebAssembly via Binaryen
-- Implementation language: ReasonML
+- Implementation language: JavaScript
 
 ### MiniC#
 
@@ -100,6 +100,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Macros
 - Polymorphism with multimethods
 - Immutable collections and sequences
+- Tail calls with `recur`
 - Compiles to JVM
 - Implementation language: Clojure
 
