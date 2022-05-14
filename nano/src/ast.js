@@ -8,6 +8,7 @@ const variantInfos = [
   VariantInfo("UnaryOperation", ["operator", "operand"]),
   VariantInfo("LetExpression", "assign", "body"),
   VariantInfo("CallExpression", ["fn", "args"]),
+  VariantInfo("BlockExpression", ["children"]),
 ];
 
 export const Ast = createType("Ast", variantInfos);
