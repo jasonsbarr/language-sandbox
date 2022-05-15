@@ -32,7 +32,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Type inference
 - Pairs (2-tuples)
 - Implementation language: ReasonML
-- Compiles to JavaScript
+- Compiles to abstract machine
 
 ### MicroML
 
