@@ -31,7 +31,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Everything from Typed Nano
 - Type inference
 - Pairs (2-tuples)
-- Implementation language: ReasonML
+- Implementation language: OCaml
 - Compiles to abstract machine
 
 ### MicroML
@@ -40,7 +40,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Records (row polymorphism)
 - Lists
 - Parametric polymorphism
-- Implementation language: ReasonML
+- Implementation language: OCaml
 - Compiles to abstract machine
 
 ### MiniML
@@ -48,7 +48,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Everything from MicroML
 - Variants and pattern matching
 - _N_-tuples
-- Implementation language: ReasonML
+- Implementation language: OCaml
 - Compiles to abstract machine
 
 ### MiniScheme
