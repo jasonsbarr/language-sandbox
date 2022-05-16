@@ -48,6 +48,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Everything from MicroML
 - Variants and pattern matching
 - _N_-tuples
+- Modules
 - Implementation language: OCaml
 - Compiles to abstract machine
 
