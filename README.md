@@ -68,7 +68,12 @@ A collection of experiments to try out new (to me) programming language concepts
 
 - Imperative
 - Statement-based
+- Integers and floating point numbers
+- Chars and strings
+- Arrays
+- Structs
 - Statically typed
+- Minimal preprocessor
 - Control flow analysis
 - At least one optimization pass on backend
 - Implementation language: TypeScript
@@ -83,7 +88,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Generics
 - Lambda expressions
 - Namespaces
-- Collection types
+- Interop with Base Class Library
 - Implementation language: C#
 - Compiles to CLR
 
@@ -120,6 +125,7 @@ A collection of experiments to try out new (to me) programming language concepts
 - Computation expressions
 - Modules
 - Syntactically significant whitespace
+- Interop with Base Class Library
 - Tail call optimization
 - Implementation language: F#
 - Compiles to CLR
