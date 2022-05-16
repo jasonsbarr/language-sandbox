@@ -132,7 +132,7 @@ const ops = [
   },
   {
     type: "oper",
-    id: "div",
+    id: "exp",
     nToken: null,
     lToken: "EXP",
     oToken: null,
