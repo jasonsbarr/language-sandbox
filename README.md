@@ -23,6 +23,8 @@ A collection of experiments to try out new (to me) programming language concepts
 - Everything from Nano
 - Strings
 - Statically typed
+- Variable declarations
+- Function declarations
 - Implementation language: JavaScript
 - Compiles to JavaScript
 
